@@ -1,0 +1,33 @@
+.resume-preview-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align items to the top */
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: #f7f7f7; /* Same background color as your form */
+}
+
+.resume-preview {
+    border: 1px solid #ccc; /* Add a border */
+    padding: 10px; /* Reduced padding for a more compact layout */
+    background-color: white; /* Background color of the preview box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow for less depth */
+    max-width: 400px; /* Reduced max width */
+    width: 100%; /* Full width within max-width */
+}
+
+h2 {
+    font-size: 1.5rem; /* Reduced heading size */
+    margin-bottom: 5px; /* Reduced bottom margin */
+}
+
+h3 {
+    font-size: 1.2rem; /* Reduced subheading size */
+    margin-bottom: 3px; /* Reduced bottom margin */
+}
+
+p {
+    margin-top: 0; /* Removed top margin */
+    margin-bottom: 5px; /* Reduced bottom margin */
+    font-size: 14px; /* Adjust font size for compactness */
+}
