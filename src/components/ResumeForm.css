@@ -11,6 +11,7 @@ form {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack items vertically */
     align-items: flex-start; /* Align items to the start */
+    max-height: 100vh;
 }
 
 input[type="text"],

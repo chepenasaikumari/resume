@@ -1,19 +1,19 @@
 .resume-preview-container {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
-    align-items: flex-start; /* Align items to the top */
-    min-height: 100vh; /* Full height of the viewport */
-    background-color: #f7f7f7; /* Same background color as your form */
+    align-items: flex-start; /* Align items to the top */ /* Full height of the viewport */
+    background-color: #ffffff; /* Same background color as your form */
 }
 
 .resume-preview {
     border: 1px solid #ccc; /* Add a border */
     padding: 10px; /* Reduced padding for a more compact layout */
-    background-color: white; /* Background color of the preview box */
+    background-color: #f7f7f7; /* Background color of the preview box */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow for less depth */
     max-width: 400px; /* Reduced max width */
-    width: 100%; /* Full width within max-width */
+    width: 100%;
+    min-height: 40vh; /* Full width within max-width */
 }
 
 h2 {
